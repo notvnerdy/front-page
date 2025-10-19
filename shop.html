@@ -125,6 +125,81 @@
 		:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
 	</style>
 	
+	<style id="icon-fonts-css" type="text/css">
+		/* FontAwesome Icons */
+		@font-face {
+			font-family: "Font Awesome 6 Brands";
+			font-style: normal;
+			font-weight: 400;
+			font-display: block;
+			src: url("wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-brands-400.woff2") format("woff2");
+		}
+		
+		@font-face {
+			font-family: "Font Awesome 6 Free";
+			font-style: normal;
+			font-weight: 400;
+			font-display: block;
+			src: url("wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-regular-400.woff2") format("woff2");
+		}
+		
+		@font-face {
+			font-family: "Font Awesome 6 Free";
+			font-style: normal;
+			font-weight: 900;
+			font-display: block;
+			src: url("wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/webfonts/fa-solid-900.woff2") format("woff2");
+		}
+		
+		/* Avada Icons */
+		@font-face {
+			font-family: 'icomoon';
+			src: url('wp-content/themes/Avada/includes/lib/assets/fonts/icomoon/awb-icons.woff') format('woff');
+			font-weight: normal;
+			font-style: normal;
+			font-display: block;
+		}
+		
+		/* FontAwesome Icon Classes */
+		.fab { font-family: "Font Awesome 6 Brands"; }
+		.far { font-family: "Font Awesome 6 Free"; font-weight: 400; }
+		.fas { font-family: "Font Awesome 6 Free"; font-weight: 900; }
+		
+		/* Social Media Icons */
+		.awb-icon-facebook:before, .fusion-facebook:before { content: "\f09a"; font-family: "Font Awesome 6 Brands"; }
+		.awb-icon-twitter:before, .fusion-twitter:before { content: "\f099"; font-family: "Font Awesome 6 Brands"; }
+		.awb-icon-instagram:before, .fusion-instagram:before { content: "\f16d"; font-family: "Font Awesome 6 Brands"; }
+		.awb-icon-pinterest:before, .fusion-pinterest:before { content: "\f0d2"; font-family: "Font Awesome 6 Brands"; }
+		
+		/* Other Icons */
+		.fa-envelope-open-text:before { content: "\f658"; }
+		.icon-basic-mobile:before { content: "\e900"; font-family: 'icomoon'; }
+		.awb-icon-check:before { content: "\e901"; font-family: 'icomoon'; }
+		
+		/* Icon Base Styles */
+		[class^="awb-icon-"], [class*=" awb-icon-"],
+		[class^="fa-"], [class*=" fa-"],
+		[class^="icon-"], [class*=" icon-"],
+		.fusion-social-network-icon {
+			font-style: normal;
+			font-variant: normal;
+			text-rendering: auto;
+			line-height: 1;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+			display: inline-block;
+		}
+		
+		/* Social Media Icon Specific Styles */
+		.fusion-social-network-icon:before {
+			font-style: normal;
+			font-variant: normal;
+			text-rendering: auto;
+			line-height: 1;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+		}
+	</style>
 	<style id="css-fb-visibility">
 		@media screen and (max-width: 640px){
 			.fusion-no-small-visibility{display:none !important;}
